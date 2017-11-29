@@ -1,0 +1,26 @@
+h1 {
+  font-family: Verdana;
+  animation: fade 1s ease;
+}
+div {
+  font-family: Georgia;
+  font-size: 50px;
+  animation: fade 1s ease;
+}
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+button {
+  color: #111;
+  background: linear-gradient(#fff, #ccc);
+  animation: fade 1s ease;
+}
+button:active {
+  background: linear-gradient(#ccc, #fff);
+}
+a {
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
